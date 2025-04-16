@@ -8,9 +8,22 @@ public class PlasticRunner {
         Plastic plastic = new Plastic();
         plastic.lightweight();
         plastic.recycle();
+        plastic.waterproof();
+        plastic.lowCost();
+        plastic.nonBiodegradable();
+
+        Plastic plasticRef = new Bottle();
+        plasticRef.lightweight();
+        plasticRef.recycle();
+        plasticRef.waterproof();
+        plasticRef.lowCost();
+        plasticRef.nonBiodegradable();
 
         Bottle bottle = new Bottle();
         bottle.lightweight();
         bottle.recycle();
+        bottle.storeLiquids();
+        bottle.hasCap();
+        bottle.reusable();
     }
 }

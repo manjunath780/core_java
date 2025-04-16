@@ -6,9 +6,24 @@ import com.xworkz.inheritance.chair.Chair;
 public class FurnitureRunner {
     public static void main(String[] args) {
         Furniture furniture = new Furniture();
-        furniture.support();
+        furniture.madeOfWood();
+        furniture.providesComfort();
+        furniture.hasDesign();
+        furniture.supportsWeight();
+        furniture.usedInHome();
+
+        Furniture furnitureRef = new Chair(); // Upcasting
+        furnitureRef.madeOfWood();
+        furnitureRef.providesComfort();
+        furnitureRef.hasDesign();
+        furnitureRef.supportsWeight();
+        furnitureRef.usedInHome();
 
         Chair chair = new Chair();
-        chair.support();
+        chair.madeOfWood();
+        chair.providesComfort();
+        chair.hasLegs();
+        chair.hasBackrest();
+        chair.usedForSitting();
     }
 }

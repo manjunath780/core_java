@@ -8,9 +8,30 @@ public class BallRunner {
         Ball ball = new Ball();
         ball.bounce();
         ball.roll();
+        ball.hasAir();
+        ball.madeOfRubber();
+        ball.spherical();
 
-        Football football = new Football();
+
+
+        Ball football = new Football();
         football.bounce();
         football.roll();
+        football.hasAir();
+        football.madeOfRubber();
+        football.spherical();
+
+        Football football1 = new Football();
+        football1.hasAir();
+        football1.usedInMatches();
+        football1.largerSize();
+        football1.stitchedPanels();
+        football1.leatherMaterial();
+
+
+
+
+
+
     }
 }
